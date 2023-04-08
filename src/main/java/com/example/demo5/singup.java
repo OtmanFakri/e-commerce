@@ -24,6 +24,7 @@ public class singup extends HttpServlet {
 
         request.setAttribute("title", "Singup");
 
+
         RequestDispatcher dispatcher = request.getRequestDispatcher("jsps/singup.jsp");
         dispatcher.forward(request, response);
 
